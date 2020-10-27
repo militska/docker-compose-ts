@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  watcher:
+    build:
+      context: ./docker/ts
+      args:
+        - ENABLE_TS=${ENABLE_TS}
+    volumes:
+      - .:/var/www
+    env_file:
+      - .env
+    restart: on-failure

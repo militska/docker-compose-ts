@@ -1,2 +1,5 @@
-# militska-docker-compose-ts
-Docker image for typescript, with run watcher (runtime compile, after change)
+# docker-compose-ts
+Docker image(+example docker-compose) for typescript, with run watcher (runtime compile, after change file)
+
+if necessary, сhange `tscongig.json`, added new files\catalogies to `files`. 
+
